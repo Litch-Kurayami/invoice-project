@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-const NavBar = () => {
-    return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+
+const NavBarUsers = () => {
+  return (
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="">
                     <img src="/logo.jpg" alt="Logo" style={{ height: '40px' }} />
@@ -14,8 +15,23 @@ const NavBar = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <Link to="/" className='' style={{ textDecoration: 'none' }}>
+                            <Link to="/Home" className='' style={{ textDecoration: 'none' }}>
                                 <a class="nav-link active" aria-current="page">Home</a>
+                            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/" className='' style={{ textDecoration: 'none' }}>
+                                <a class="nav-link active" aria-current="page">Clientes</a>
+                            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/Productos" className='' style={{ textDecoration: 'none' }}>
+                                <a class="nav-link active" aria-current="page">Productos</a>
+                            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to="/" className='' style={{ textDecoration: 'none' }}>
+                                <a class="nav-link active" aria-current="page">Facturas</a>
                             </Link>
                         </li>
                         <li class="nav-item dropdown">
@@ -24,23 +40,17 @@ const NavBar = () => {
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <Link to="/Login" className="" style={{ textDecoration: 'none' }}>
-                                    <a class="dropdown-item" href="#">iniciar Sesion</a>
+                                    <Link to="/" className="" style={{ textDecoration: 'none' }}>
+                                    <a class="dropdown-item" href="#">Cerrar Sesion</a>
                                     </Link>
                                     </li>
-                                <li><hr class="dropdown-divider"/></li>
-                                <li>
-                                    <Link to="/Registro" className="" style={{ textDecoration: 'none' }}>
-                                    <a class="dropdown-item" href="#">Registrarse</a>
-                                    </Link>
-                                </li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    )
+  )
 }
 
-export default NavBar
+export default NavBarUsers

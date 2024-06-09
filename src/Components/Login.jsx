@@ -47,7 +47,7 @@ const Login = () => {
                 confirmButtonText: 'Aceptar'
               }).then((result) => {
                 if (result.isConfirmed) {
-                  navigate('/')
+                  navigate('/Home')
                 }
               })              
             } else {

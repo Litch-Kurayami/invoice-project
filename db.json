@@ -6,6 +6,20 @@
       "email": "litchkurayami@gmail.com",
       "password": "12345678a",
       "cpassword": "12345678a"
+    },
+    {
+      "id": "d321",
+      "name": "Sarai",
+      "email": "Sarai@gmail.com",
+      "password": "221203",
+      "cpassword": "221203"
+    },
+    {
+      "name": "pao",
+      "email": "pao@gmail.com",
+      "password": "221203",
+      "cpassword": "221203",
+      "id": "oHJdkbc"
     }
   ]
 }
