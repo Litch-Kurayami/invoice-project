@@ -34,8 +34,6 @@ const NavBar = () => {
                                     <a class="dropdown-item" href="#">Registrarse</a>
                                     </Link>
                                 </li>
-
-                                
                             </ul>
                         </li>
                     </ul>
