@@ -21,5 +21,67 @@
       "cpassword": "221203",
       "id": "oHJdkbc"
     }
+  ],
+  "products": [
+    {
+      "ID": 1,
+      "Name": "Kiroshi Optics MK.3",
+      "Brand": "Kiroshi",
+      "Category": "Optical Enhancements",
+      "Price": 3000,
+      "Description": "Advanced optical implant enhancing vision and providing various scanning capabilities.",
+      "Image": "p1.jpg",
+      "CreatedAt": "2024-06-09T12:00:00Z"
+    },
+    {
+      "ID": 2,
+      "Name": "Titanium Bones",
+      "Brand": "Ripperdoc Industries",
+      "Category": "Skeletal Enhancements",
+      "Price": 2500,
+      "Description": "Reinforced bone structure for increased durability and strength.",
+      "Image": "p2.jpg",
+      "CreatedAt": "2024-06-09T12:10:00Z"
+    },
+    {
+      "ID": 3,
+      "Name": "Gorilla Arms",
+      "Brand": "Arasaka",
+      "Category": "Arm Enhancements",
+      "Price": 4500,
+      "Description": "Powerful arm enhancements providing immense strength and combat capability.",
+      "Image": "p3.jpg",
+      "CreatedAt": "2024-06-09T12:20:00Z"
+    },
+    {
+      "ID": 4,
+      "Name": "Subdermal Armor",
+      "Brand": "Militech",
+      "Category": "Dermal Enhancements",
+      "Price": 5000,
+      "Description": "Under-skin armor plating for increased protection against physical damage.",
+      "Image": "p4.jpg",
+      "CreatedAt": "2024-06-09T12:30:00Z"
+    },
+    {
+      "ID": 5,
+      "Name": "Smart Link",
+      "Brand": "Tsunami Defense Systems",
+      "Category": "Hand Enhancements",
+      "Price": 3200,
+      "Description": "Hand implant enhancing weapon handling and aiming precision.",
+      "Image": "p5.jpg",
+      "CreatedAt": "2024-06-09T12:40:00Z"
+    },
+    {
+      "ID": 6,
+      "Name": "Reflex Tuner",
+      "Brand": "Biodyne",
+      "Category": "Nervous System Enhancements",
+      "Price": 3800,
+      "Description": "Nervous system implant improving reflexes and reaction time.",
+      "Image": "p6.jpg",
+      "CreatedAt": "2024-06-09T12:50:00Z"
+    }
   ]
 }
